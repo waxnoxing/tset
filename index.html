@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimalist Interactive Web Test</title>
+    <meta name="description" content="A simple yet stunning interactive web page to test local development and deployment flows.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-glow"></div>
+    <main class="container">
+        <header>
+            <h1 class="title">Web Test Page</h1>
+            <p class="subtitle">A simple, modern, and interactive demonstration.</p>
+        </header>
+
+        <section class="card" id="interactive-card">
+            <h2 class="card-title">Interactive Counter</h2>
+            <p class="card-desc">Click the button below to test JavaScript state manipulation and CSS transitions.</p>
+            <div class="counter-display" id="counter-value">0</div>
+            <div class="button-group">
+                <button class="btn btn-secondary" id="btn-decrement" aria-label="Decrement counter">-</button>
+                <button class="btn btn-primary" id="btn-increment" aria-label="Increment counter">+</button>
+            </div>
+            <button class="btn btn-reset" id="btn-reset" aria-label="Reset counter">Reset</button>
+        </section>
+
+        <footer>
+            <p>Created with Antigravity AI Code Assistant</p>
+        </footer>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
